@@ -5,6 +5,7 @@
     --light: #E7ECEF;
     --dark: #272932;
     --camel: #D8A47F;
+    color-scheme: light dark;
 }
 
 body {
@@ -35,3 +36,24 @@ h1 {
 p {
     font-size: 0.75rem;
 }
+
+.ipsum {
+    display: none;
+}
+@media (min-width:700px) {
+    h1{
+    font-size :16px;
+    background-color:blueviolet;
+
+    }
+}
+@media (min-width:1000px) {
+    h1{
+    font-size :20px;
+    background-color: chartreuse;
+    }
+    .ipsum {
+        display: block;
+    }
+}
+@media screen 
