@@ -11,10 +11,19 @@ body {
     background-color: var(--light);
 }
 
+.card-container {
+    display: flex;
+    background-color: antiquewhite;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 .card {
     padding: 10px;
     margin: 10px;
+    background-color: aqua;
+
 }
+
 
 img {
     width: 250px;
