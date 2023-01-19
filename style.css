@@ -28,3 +28,10 @@ body {
 img {
     width: 250px;
 }
+
+h1 {
+    font-size: 2.5rem;
+}
+p {
+    font-size: 0.75rem;
+}
